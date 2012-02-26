@@ -20,7 +20,7 @@ public class MarcarPonto {
 	
 	public static void main(String[] args) throws IOException {
 		
-		System.out.print("Marcar ponto para o dia de hoje?(1-Sim,2-Não) ");
+		System.out.print("Marcar ponto para o dia de hoje?(1-Sim,2-Não):");
 		Scanner scanner = new Scanner(System.in);
 		int decisao = scanner.nextInt();
 		
